@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+# UDP-Protocol
+  
+## Description of the problem
+In this project the HTTP client & HTTP server (remove file manager) of previous projects (Add link to the other projects) was implemented using UDP protocol. In the previous project TCP protocol was implemented to guarantee packet transmission over unreliable network links. In this project to make UDP protocol reliable to guarantee packet transmission, the Automatic-Repeat-Request Protocol known as Selective Repeat ARC / Selective Reject ARQ was used. 
 
-You can use the [editor on GitHub](https://github.com/mushfiqur-anik/UDP-Client-Server-Application/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## File List
+- HttpServerApplication.java
+- UDPClient.java
+- UDPServer.java
+- Packet.java
+- router
 
-### Markdown
+## Built with
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* [**Java**](https://en.wikipedia.org/wiki/Java_(programming_language)) - The programming language used
+* [**Eclipse**](https://en.wikipedia.org/wiki/Eclipse_(software)) - The IDE used 
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## Author(s)
 
-- Bulleted
-- List
+* [**Mushfiqur Anik**](https://github.com/mushfiqur-anik)
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mushfiqur-anik/UDP-Client-Server-Application/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
